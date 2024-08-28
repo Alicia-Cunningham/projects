@@ -16,6 +16,6 @@ Air Quality Monitor Desciption:
 
 A personal project written in Arduino Code.
 This code implements an air quality and temperature monitoring system using an OLED display and sensors.
-integrates the Adafruit SSD1306 library, utilizes a DHT11 sensor, to read the humity and temperature of the surrouding environment as well as an Air Quality sensor(MQ135).
+Integrates the Adafruit SSD1306 library, utilizes a DHT11 sensor, to read the humity and temperature of the surrouding environment as well as an Air Quality sensor(MQ135).
 
 Outputs real-time data on temperature, humidity, and air quality levels, updates dynamically.
