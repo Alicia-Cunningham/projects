@@ -1,4 +1,4 @@
-UNBREAKABLE Descrpition:
+Unbreakable Descrpition:
 
 A SJSU Group project written in the C programming language. 
 A choose your own adventure game that emphasizes modular design, user interaction, and randomization. 
