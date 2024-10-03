@@ -1,1 +1,12 @@
+Purpose:
+For our senior project, we set out to make an Over the Counter Hearing Aid, as to help bridge the finacial gap 
+of medical care, since hearing aids can easily cost upwards of $1000. Our design would allow us to provide a 
+quality hearing aid for around $30 to $40.
 
+Description:
+In order to achieve our goals, we designed our hearing aid to use both digital and analog components. We utilized 
+chips such as the TLV320AIC10CPFB (ADC/DAC) and the TMS320VC5402PGE100 (DSP) to convert and process the audio the 
+hearing aid picks up, to remove noise, equalize the volume, and raise the gain of higher frequency noises. Doing so 
+improves the quality of the users experience, increases their auditory range and protects the user from sudden loud
+noises that could further damage their hearing. Along with this, our hearing aid was designed to have adjustable 
+volume, which was accomplished using a potentiometer and an amplifier. 
