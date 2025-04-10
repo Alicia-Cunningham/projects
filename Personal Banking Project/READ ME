@@ -1,0 +1,31 @@
+Overview
+The Personal Banking System is a command-line application built in Python that allows users to manage their financial transactions efficiently. It supports adding, removing, searching, and displaying transactions while storing data in a JSON file for persistence. The system follows object-oriented programming (OOP) principles, making it modular and easy to extend.
+
+Features
+- Object-oriented design with Transaction and Bank classes
+- Add, remove, and search transactions by title or type
+- Save and load transactions using JSON file storage
+- Error handling for robustness and reliability
+- Simple and intuitive CLI interface
+
+How It Works
+Add a transaction – Enter a title, amount, and type (Withdrawal/Deposit).
+
+Remove a transaction – Delete transactions by title.
+
+Display transactions – View all stored transactions in a readable format.
+
+Search transactions – Find transactions based on title or type.
+
+Save transactions – Store transaction data in wallet.json.
+
+Load transactions – Retrieve saved data upon program restart.
+
+Installation & Usage
+Requirements
+Python 3.x
+
+Future Enhancements
+- Add a graphical user interface (GUI)
+- Implement a database (SQLite or PostgreSQL) for better storage
+- Introduce user authentication for multiple account management
