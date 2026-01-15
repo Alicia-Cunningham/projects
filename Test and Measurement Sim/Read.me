@@ -1,0 +1,48 @@
+# Object-Oriented Pulsed Power Test & Measurement Simulator
+
+## Overview
+This project implements a modular, object-oriented Python framework designed to emulate
+laboratory workflows for pulsed power experiments and electronic device characterization.
+The framework mirrors the structure of real experimental test environments, including
+pulse sources, devices under test (DUTs), measurement instrumentation, safety enforcement,
+and post-test analysis.
+
+The simulator is intended for algorithm development, test planning, and analysis workflow
+validation prior to execution in a physical laboratory environment.
+
+## Technical Objectives
+- Model transient voltage and current behavior in pulsed electrical systems
+- Emulate bench-level instrumentation and measurement acquisition
+- Enforce configurable safety limits representative of high-consequence experiments
+- Automate repeatable test sequences and structured data analysis
+
+## Architecture
+The framework is organized into independent modules representing key experimental components:
+- Pulse generation
+- Device under test (DUT) response
+- Measurement instrumentation
+- Safety monitoring and interlocks
+- Test execution and analysis
+
+This modular design supports extensibility and aligns with best practices for experimental
+engineering software.
+
+## Safety Considerations
+All experiments are executed with predefined voltage, current, and energy limits.
+Test execution is automatically aborted if any safety threshold is exceeded, reflecting
+standard operational controls used in high-energy laboratory environments.
+
+## Example Outputs
+- Transient voltage and current waveforms
+- Extracted metrics including peak values, rise time, and pulse energy
+- Logged test results suitable for post-experiment review
+
+## Future Work
+- Expanded DUT models (RLC, nonlinear components)
+- Frequency-domain analysis
+- Batch testing and parameter sweeps
+- Data export for external analysis tools
+
+## Disclaimer
+This software is a simulation-only tool and does not interface with physical hardware.
+It is intended solely for modeling, analysis, and workflow development.
