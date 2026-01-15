@@ -12,7 +12,7 @@ This code was designed for an RFID-based access control system using the Adafrui
 This code initializes the NFC reader, checks for RFID tags, reads the tag's UID, and compares it to a predefined value. Based on the match, it either grants or denies access, indicated by controlling an LED.
 
 
-Air Quality Monitor Desciption:
+Air Quality Monitor Description:
 
 A personal project written in Arduino Code.
 This code implements an air quality and temperature monitoring system using an OLED display and sensors.
